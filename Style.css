@@ -1,0 +1,227 @@
+.logo {
+    background-color: Black;
+    font-weight: bold;
+    color: goldenrod;
+    font-size: 28px;
+    text-align: center;
+    min-height: 35px;
+}
+
+.gummy, .choclate, .fruit, .hard, .sour, .home {
+    width:100%;
+    text-decoration:none;
+    padding: 8px;
+    color: white;
+    background-color: grey;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.active {
+    width:100%;
+    text-decoration:none;
+    padding: 8px;
+    background-color: lightgrey;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
+}
+
+a:not(.active2), a:visited:not(.active2){
+    color: white;
+}
+a, a:visited {
+    text-decoration:none;
+}
+
+a:hover:visited, a:hover{
+    background-color: lightgray;
+    color: black
+}
+
+body {
+    background-color: #d4af37;
+    position: relative;
+}
+
+.special {
+    border: 4px dashed black;
+    min-height: 200px;
+    font-size: 48px;
+    text-align: center;
+    background-color: grey;
+}
+
+.active2 {
+    color: black;
+}
+
+.nonactive:hover {
+    background-color: lightgray;
+}
+
+.gummies-logo {
+    font-weight: bold;
+    color: ivory;
+    font-size: 28px;
+    padding: 10px 15px;
+    min-height: 35px;
+    margin: 0;
+
+}
+
+.chocolate-logo {
+    font-weight: bold;
+    color: ivory;
+    font-size: 28px;
+    padding: 10px 15px;
+    min-height: 35px;
+    margin: 0;
+
+}
+
+.fruit-logo {
+    font-weight: bold;
+    color: ivory;
+    font-size: 28px;
+    padding: 10px 15px;
+    min-height: 35px;
+    margin: 0;
+
+}
+
+.hard-logo {
+    font-weight: bold;
+    color: ivory;
+    font-size: 28px;
+    padding: 10px 15px;
+    min-height: 35px;
+    margin: 0;
+
+}
+
+.sour-logo {
+    font-weight: bold;
+    color: ivory;
+    font-size: 28px;
+    padding: 10px 15px;
+    min-height: 35px;
+    margin: 0;
+
+}
+
+.address-logo {
+    font-weight: bold;
+    color: ivory;
+    font-size: 20px;
+    padding: 1px 15px;
+    min-height: 1px;
+    margin: 0;
+
+}
+
+.phone-logo {
+    font-weight: bold;
+    color: ivory;
+    font-size: 20px;
+    padding: 10px 15px;
+    min-height: 10px;
+    margin: 0;
+
+}
+
+.hours-logo {
+    font-weight: bold;
+    color: ivory;
+    font-size: 20px;
+    padding: 10px 15px;
+    min-height: 10px;
+    margin: 0;
+
+}
+
+.reason {
+    font-weight: bold;
+    color: ivory;
+    font-size: 25px;
+    padding: 10px 15px;
+    min-height: 10px;
+    margin: 0;
+
+}
+
+.sub {
+    margin: 0;
+    color: black;
+}
+
+.sub2 {
+    margin: 0;
+}
+
+.sub3 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.card-area {
+    margin: 20px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    height: 200px;
+    width:200px;
+    background-color: white;
+    margin: 10px;
+    border: 1px solid black;
+    align-content: center;
+}
+
+.name {
+    align-items: center;
+}
+
+.price {
+    align-items: center;
+    color: gray;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    border: 1px solid black;
+    margin: 15px 50px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.card-area , h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.ultraball {
+    height: 155px;
+    width: 326px;
+    margin: 15px;
+}
+
+.sp {
+    background-color: rgba(45, 55, 72, 0.70);
+    color: red;
+    position: absolute;
+    margin: 15px 50px;
+    font-size: 10px;
+    padding: 5px;
+}
